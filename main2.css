@@ -1,0 +1,18 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.caja {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(37, 41, 2, 0.171);
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(255, 0, 13);
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    color: blue;
+
+
+}

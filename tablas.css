@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+table {
+    width: 100%;
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+
+tr:nth-child(oddpagina) {
+    background-color: bisque;
+}
+
+td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+table th {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
