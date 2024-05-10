@@ -1,0 +1,14 @@
+body {
+    background-color: cornsilk;
+
+}
+
+p {
+    max-width: 350px;
+    background-color: aqua;
+    margin: auto;
+    position: fixed;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+}

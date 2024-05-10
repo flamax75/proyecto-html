@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(160, 202, 202);
+}
+
+#over {
+    width: 100px;
+    height: 100px;
+    overflow-x: scroll;
+}

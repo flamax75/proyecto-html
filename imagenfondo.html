@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página con Imagen de Fondo Difuminada</title>
+    <style>
+        /* Establece el estilo CSS para que la imagen de fondo cubra toda la pantalla */
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .bg {
+            /* La imagen de fondo */
+            background-image: url('HARLEY1.JPG');
+
+            /* Asegura que la imagen de fondo cubra toda la pantalla */
+            height: 80%;
+            width: 80po%;
+            position: fixed;
+            /* Fija el fondo para que no se mueva al hacer scroll */
+            z-index: -10;
+            /* Pone la imagen de fondo detrás del contenido */
+
+            /* Centra y escala la imagen de fondo */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            /* Añade el efecto de difuminado a la imagen de fondo */
+            filter: blur(0px);
+            -webkit-filter: blur(0px);
+        }
+
+        .content {
+            /* Establece el contenido por encima de la imagen de fondo difuminada */
+            position: relative;
+            /* Hace que el contenido esté por encima del fondo */
+            height: 100%;
+            display: grid;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(245, 245, 239);
+            text-align: right;
+            z-index: 100;
+            /* Asegura que el contenido esté por encima del fondo */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg"></div> <!-- Div para el fondo difuminado -->
+    <div class="content"> <!-- Div para el contenido sobre el fondo -->
+        <h1>Bienvenido a mi página web</h1>
+        <p>Este es un ejemplo de una página con una imagen de fondo completa y difuminada.</p>
+    </div>
+
+</body>
+
+</html>
